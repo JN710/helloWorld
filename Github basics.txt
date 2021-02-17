@@ -1,0 +1,33 @@
+https://www.datacamp.com/community/tutorials/git-push-pull
+#####################################################
+# neues Projekt
+
+repo auf Github erstellen
+
+$ git init // Im lokalen Verzeichnis des Projekts
+$ git add .
+$ git status
+$ git commit -m "message"
+$ git remote add origin 'Url des repos auf Github'
+$ git push -u origin master
+
+#####################################################
+regelmäßiges pushen
+
+$ git add .
+$ git commit -m "message"
+$ git push -u origin master
+
+#####################################################
+# zweiter Rechner erste Einstellungen
+
+$ git init // Im lokalen Verzeichnis des Projekts
+$ git add .
+$ git remote add origin 'Url des repos auf Github'
+
+#####################################################
+# pull (holen)
+
+(muss noch was davor eingestellt werden?)
+
+$ git pull origin master // origin und master können andere Werte sein
